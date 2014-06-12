@@ -1,0 +1,35 @@
+{
+  "name": "generator-shopstyle-frontend",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "repository": "steve8708/generator-shopstyle-frontend",
+  "author": {
+    "name": "Steve Sewell",
+    "email": "",
+    "url": "https://github.com/steve8708"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0",
+    "yosay": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
